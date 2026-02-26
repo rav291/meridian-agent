@@ -7,9 +7,10 @@
     "typecheck": "tsc --noEmit -p convex"
   },
   "exports": {
-    "./convex": "./convex/*.ts"
+    "./convex": "./convex/*.ts" 
   },
   "devDependencies": {
+    "@types/node": "^25.1.0",
     "@workspace/typescript-config": "workspace:*",
     "typescript": "latest"
   },
